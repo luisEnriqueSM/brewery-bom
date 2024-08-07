@@ -11,10 +11,35 @@
         <relativePath/>
     </parent>
 
-    <groupId>rg.beer.works.beer.bom</groupId>
+    <groupId>org.beer.works.beer.bom</groupId>
     <artifactId>brewery-bom</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Aether code</name>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Luis Enrique Serrallonga Martinez</name>
+            <organization>Aether code</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>21</java.version>
+        <org.mapstruct.version>1.5.5.Final</org.mapstruct.version>
+    </properties>
 
 </project>
